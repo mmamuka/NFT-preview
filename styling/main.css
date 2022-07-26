@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+body {
+    position: relative;
+    width: 1440px;
+    height: 900px;
+    background: #0D192C;
+}
+
+.mainbox {
+    position: absolute;
+    width: 350px;
+    height: 596px;
+    left: 50%;
+    right: 50%;
+    top: 20%;
+    bottom: %;
+    background: #15263F;
+    box-shadow: 0px 25px 50px rgba(0, 0, 0, 0.0952917);
+    border-radius: 15px;
+    padding: 24px;
+}
+
+.image img {
+    max-width: 100%;
+    border-radius: 20px;
+}
+
+.Equil {
+    position: absolute;
+    font-family: 'Outfit';
+    left: 10%;
+    right: 6.86%;
+    top: 58.72%;
+    bottom: 36.58%;
+    color: #FFFFFF;
+}
+
+    .Equil:hover {
+        color: red;
+    }
+
+.text {
+    position: absolute;
+    height: 52px;
+    left: 6.86%;
+    right: 6.86%;
+    top: calc(50% - 52px/2 + 122px);
+    color: #8BACD9;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 26px
+}
+
+.eth {
+    position: absolute;
+    height: 20px;
+    left: 7%;
+    right: 1.07%;
+    top: calc(83% - 20px/2);
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #00FFF8;
+}
+
+.cloc {
+    position: absolute;
+    height: 20px;
+    left: 65.42%;
+    right: 0.40%;
+    top: calc(83% - 30px/3);
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 15px;
+    color: #8BACD9;
+}
+
+.line {
+    position: absolute;
+    Height: 1px;
+    left: 4%;
+    right: 4%;
+    top: 85.24%;
+    bottom: 13.59%;
+    background: #2E405A;
+    border: none;
+}
+
+.footer {
+    display: flax;
+    position: absolute;
+    width: 33px;
+    Height: 33px;
+    left: 6.86%;
+    right: 83.71%;
+    top: 90.09%;
+    bottom: 5.37%;
+}
+.footer img{
+    max-width: 33px;
+}
+.creattxt {
+    position: absolute;
+    left: 150%;
+    right: 30.25%;
+    top: calc(40% - 20px/2);
+    color: #8BACD9;
+    font-family: 'Outfit';
+    font-style: normal sans-serif;
+}
+
+.mamukatxt {
+    position: absolute;
+    height: 10px;
+    left: 350%;
+    right: 1.1%;
+    top: calc(40% - 20px/2);
+    font-family: 'Outfit';
+    font-style: normal;
+    font-size: 16px;
+    color: #FFFFFF;
+}
